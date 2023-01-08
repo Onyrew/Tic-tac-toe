@@ -49,5 +49,8 @@ while not won:
     won = evaluate_board(board, current_player)
     if won:
         print(f"Player{current_player} Won")
+    if str(board).count('0') == 0:
+        print("Tie")
+        break
     # Switch
-    current_player = (current_player) % 2 + 1
+    current_player = (current_player & 1) + 1
