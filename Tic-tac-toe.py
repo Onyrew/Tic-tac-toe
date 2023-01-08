@@ -23,9 +23,9 @@ def evaluate_board(_board, _token):
 
 # Init
 board = [
-    [0, 0, 0],
-    [0, 0, 0],
-    [0, 0, 0]
+    [ 0, 0, 0 ],
+    [ 0, 0, 0 ],
+    [ 0, 0, 0 ]
 ]
 won = False
 current_player = 1
